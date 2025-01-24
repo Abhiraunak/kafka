@@ -5,7 +5,8 @@
   "scripts": {
     "start": "tsc -b && node dist/index.js",
     "consume": "tsc -b && node dist/consume.js",
-    "produce": "tsc -b && node dist/produce.js"
+    "produce": "tsc -b && node dist/produce.js",
+    "produce:user": "tsc -b && node dist/producer-user.js"
   },
   "author": "",
   "license": "ISC",
